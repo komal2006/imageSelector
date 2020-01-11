@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     @IBAction func btnLast(_ sender: UIButton)
     {
-            imageView.image = Array[Array.count-1]
+        imageView.image = Array[Array.count-1]
     }
     
     @IBAction func btnPrev(_ sender: UIButton)

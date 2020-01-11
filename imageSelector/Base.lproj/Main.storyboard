@@ -19,16 +19,16 @@
                                 <rect key="frame" x="43" y="183" width="329" height="196"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWS-SB-owY">
-                                <rect key="frame" x="256" y="458" width="81" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYG-Qa-oUu">
+                                <rect key="frame" x="11" y="514" width="103" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Last"/>
+                                <state key="normal" title="First"/>
                                 <connections>
-                                    <action selector="btnLast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jon-Mb-D2R"/>
+                                    <action selector="btnFirst:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Em-kf-s2p"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKF-f2-BKl">
-                                <rect key="frame" x="93" y="559" width="103" height="30"/>
+                                <rect key="frame" x="113" y="514" width="103" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Prev"/>
                                 <connections>
@@ -36,19 +36,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7s-Ur-t9S">
-                                <rect key="frame" x="240" y="559" width="97" height="30"/>
+                                <rect key="frame" x="217" y="514" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="btnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wse-kj-H1w"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYG-Qa-oUu">
-                                <rect key="frame" x="79" y="458" width="103" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWS-SB-owY">
+                                <rect key="frame" x="313" y="514" width="81" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="First"/>
+                                <state key="normal" title="Last"/>
                                 <connections>
-                                    <action selector="btnFirst:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Em-kf-s2p"/>
+                                    <action selector="btnLast:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jon-Mb-D2R"/>
                                 </connections>
                             </button>
                         </subviews>
