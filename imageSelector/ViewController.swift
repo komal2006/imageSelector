@@ -22,32 +22,41 @@ class ViewController: UIViewController {
     UIImage(named:"img8") ,
     UIImage(named:"img9") ,
     UIImage(named:"img10") ]
-    var index : Int = 0
+    var index = 0
    
-    @IBAction func btnFirst(_ sender: Any) {
+    @IBAction func btnFirst(_ sender: Any)
+    {
+        imageView.image = Array[0]
     }
     
-    @IBAction func btnLast(_ sender: UIButton) {
+    @IBAction func btnLast(_ sender: UIButton)
+    {
+            imageView.image = Array[Array.count-1]
     }
     
-    @IBAction func btnPrev(_ sender: UIButton) {
-        if(index > 0 ){
-                      index = index - 0
-
-                      let img =  Array[index]
-                      imageView.image = img
-    }
+    @IBAction func btnPrev(_ sender: UIButton)
+    {
+        if (index < Array.count)
+       {
+            index = index - 1
+            if (index == Array.count)
+            {
+               index = 0
+            }
+            imageView.image = Array[index]
+       }
     }
     @IBAction func btnNext(_ sender: UIButton)
     {
         
-        if(index < Array.count){
-           // index = index + 1
-
-               let img =  Array[index]
-               imageView.image = img
-            index = index + 1
-        
+        if (index < Array.count)
+        {
+          index = index + 1
+          if (index == Array.count)
+          {
+            index = 0
+          }
+          imageView.image = Array[index]
         }
     }
     
